@@ -1,0 +1,11 @@
+1. callbacks function
+2. diff let & var
+3. default parameter while
+4. spread op.
+5. for of
+6. array & object destructing
+7. arrow function
+8. create class
+9. snake game
+10. mouse event (left so left and right so right)
+11. list of checkbox and by clicking on checkbox show list selected value in comma separated format.
