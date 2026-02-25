@@ -1,0 +1,7 @@
+---------Package.json---------
+1. A package is a file or directory that is described by a package.json file, used for project details. 
+2. It is a JSON file located in the root directory of the project and contains essential metadata and configuration details.
+3. package.json file contains project name.
+4. package.json file contains project version.
+5. package.json file contains project author name and license name.
+6. package.json file contains dependencies.
