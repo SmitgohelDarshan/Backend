@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mouse event</title>
+</head>
+<body>
+    <button id='clicktxt'>click</button>
+    <h1 id='txt'></h1>
+    <script>
+        document.getElementById('clicktxt').addEventListener("mousedown",(e)=>{
+            if(e.button == 0){
+                txt.innerHTML = "Left Button Clicked";
+            } if(e.button == 2){
+                txt.innerHTML = "right button clicked";
+            }
+        })
+    </script>
+</body>
+</html>

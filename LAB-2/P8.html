@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>create class</title>
+  </head>
+  <body>
+    <script>
+      class phone {
+
+        constructor(name1, model) {
+          this.name1 = name1;
+          this.model = model;
+          
+        }
+         displayInfo(){
+            console.log(`$Phone name : ${this.name1} and Model name : ${this.model}`);
+          }
+
+      }
+
+      const phone1 = new phone("iPhone", "17 Pro Max");
+      phone1.displayInfo();
+    </script>
+  </body>
+</html>

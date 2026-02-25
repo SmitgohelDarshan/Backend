@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>diff let & var</title>
+</head>
+<body>
+    <script>
+        var b = 3;
+        var b = 4; // allow redeclaration  function scope
+        let a = 2; //block scope
+        // let a = 1;  // not allow redeclaration
+        function print(){
+            document.writeln(`a:${a} and b:${b}`)
+        }
+        print()
+
+        a=10;
+        function demo(){
+            var a=20;
+            if(true){
+                let a=30;
+                document.writeln("<br>Inside Block a:",a);
+            }
+            document.writeln("<br>Inside Function a:",a);
+        }
+        demo();
+        document.writeln("<br>Outside Function a :",a);
+    </script>
+</body>
+</html>
