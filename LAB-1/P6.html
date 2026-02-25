@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let n = parseInt(prompt("Enter Number: "))
+        let length_n = n.toString().length
+        let sum = 0, temp = n
+        while(temp != 0){
+            let digit = temp % 10
+            sum += Math.pow(digit, length_n)
+            temp = Math.floor(temp / 10) 
+        }
+        if(sum == n)    alert("Armstrong Number")
+        else    alert("Not Armstrong Number")
+    </script>
+</body>
+</html>

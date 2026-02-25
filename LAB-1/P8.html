@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let n1 = parseInt(prompt("Enter Range: "))
+        let n2 = parseInt(prompt("Enter Range: "))
+        
+        for(i = n1; i < n2; i++){
+            let flag = 0
+            for (let j = 2; j < i; j++) {
+                if(i % j == 0){
+                    flag = 1
+                    break
+                }
+            }
+            if(flag != 1)   document.writeln(i+",")
+        }
+    </script>
+</body>
+</html>
